@@ -1,7 +1,23 @@
-# Prerequisites
-*.d
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Compiled Object files
+# macOS generated files
+*.swp
+*.swo
+._*
+
+# Sublime Text files
+*.sublime-workspace
+*.sublime-project
+*.sublime-metadata
+*.sublime_session
+*.cache
+*.tmPreferences
+
+# C++ build artifacts
+*.d       # Prerequisites
 *.slo
 *.lo
 *.o
@@ -26,7 +42,31 @@
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# Debug and profiling files
+*.gcda
+*.gcno
+*.gcov
+
+# CMake and Makefile output
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# IDE and editor-specific files
+.vscode/
+.idea/
+.clangd/
+compile_commands.json
+
+# Logs and temp files
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# Ignore binaries but allow them in subdirectories (if needed)
+# Uncomment the next line if you want to ignore all binaries globally
+# **/bin/
