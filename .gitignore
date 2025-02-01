@@ -70,3 +70,6 @@ compile_commands.json
 # Ignore binaries but allow them in subdirectories (if needed)
 # Uncomment the next line if you want to ignore all binaries globally
 # **/bin/
+
+input.txt
+output.txt
